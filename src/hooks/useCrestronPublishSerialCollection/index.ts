@@ -1,4 +1,4 @@
-import { publishEvent } from "@crestron/ch5-crcomlib";
+import CrComLib from "@crestron/ch5-crcomlib";
 import CrestronCH5 from "@norgate-av/crestron-ch5-helper";
 import { ISerialEventAction } from "../../types";
 
@@ -17,7 +17,7 @@ export function useCrestronPublishSerialCollection(
     signalNames.forEach((signalName) => {
         actions.push({
             setValue: (value: string) =>
-                publishEvent(signalType, signalName, value),
+                CrComLib.publishEvent(signalType, signalName, value),
         });
     });
 
