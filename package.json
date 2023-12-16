@@ -51,7 +51,7 @@
         "contrib:check": "all-contributors check"
     },
     "peerDependencies": {
-        "@crestron/ch5-crcomlib": "^1.2.0",
+        "@crestron/ch5-crcomlib": "^2.5.0",
         "@norgate-av/crestron-ch5-helper": "^1.1.0",
         "react": ">=16"
     },
@@ -68,7 +68,7 @@
     "devDependencies": {
         "@commitlint/cli": "^17.0.0",
         "@commitlint/config-conventional": "^17.0.0",
-        "@crestron/ch5-crcomlib": "^1.2.0",
+        "@crestron/ch5-crcomlib": "^2.5.0",
         "@norgate-av/crestron-ch5-helper": "^1.1.0",
         "@semantic-release/changelog": "^6.0.1",
         "@semantic-release/git": "^10.0.1",
@@ -95,8 +95,8 @@
         "lint-staged": "^13.0.2",
         "node-jq": "^2.3.3",
         "prettier": "^2.6.0",
-        "react": "^18.0.0",
-        "react-dom": "^18.0.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
         "rimraf": "^3.0.2",
         "run-script-os": "^1.1.6",
         "semantic-release": "^19.0.2",
